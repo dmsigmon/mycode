@@ -10,7 +10,7 @@ def main():
             choice = menu()
             # the if statement allows the use of the menu() function to pick which choice function to call
             count = 1
-            # iterates the chal list to count number of challenges available
+            # iterates the chal list to count number of challenges available to make sure "choice" is a valid number"
             for i in chal:
                 count += 1
 
@@ -47,8 +47,8 @@ def challenge(num):
                         print("***Please Enter Valid Menu number***")
                 break
             elif sub_choice == '2':  # choice in submenu to learn about fibonacci
-                fib_file = open(files[num], "r")
-                print(fib_file.read())
+                with open(files[num], "r") as txt_file:
+                    print(txt_file.read())
                 break
             elif sub_choice == '3':
                 break
