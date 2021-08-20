@@ -61,7 +61,7 @@ def challenge(num):
 def menu():
     # used to give the user options of what to see completed or learn about
     choice = input('===============================================================================\n'
-                   '| What code challenge would you like to see completed and learn more about?   |\n'
+                   '| Which code challenge would you like to see completed and learn more about?   |\n'
                    '| 1) Fibonacci                                                                |\n'
                    '| 2) Fizzbuzz                                                                 |\n'
                    '| 3) Exit                                                                     |\n'
