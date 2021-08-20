@@ -73,7 +73,7 @@ def submenu():
     # once selected allows user to pick what the want to do
     choice = input("====================================================================\n"
                    "| Would you like to see it in action or read more about it?        |\n"
-                   "| 1) All about about  them visuals! Lets see it work!              |\n"
+                   "| 1) All about about them visuals! Lets see it work!              |\n"
                    "| 2) Reading is Key! Tell me more about them                       |\n"
                    "| 3) Back                                                          |\n"
                    "====================================================================\n")
