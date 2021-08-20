@@ -13,8 +13,7 @@ def main():
             # iterates the chal list to count number of challenges available
             for i in chal:
                 count += 1
-
-            if choice != '3' and choice != '0' and int(choice) < count:
+            if choice != '3' and int(choice) < count:
                 challenge(int(choice)-1)
                 str(choice)
             elif choice == '3':  # will break out of the loop if chosen to exit
